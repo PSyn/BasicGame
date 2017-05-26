@@ -66,7 +66,7 @@ def BasicGame():
             return acres
 
         def ask_to_sell_land(acres):
-            '''Ask user how much land they want to sell. '''
+            '''Ask user(s) how much land they want to sell. '''
             land = input ("How many acres will you sell? ")
             while land > acres: #defines rejection if attempting to sell more land than is owned
                 print "O great Lord, we have but", acres, "acres to sell!"
